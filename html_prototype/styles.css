@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, Verdana,  sans-serif; /* Семейство шрифтов */
+  font-size: 12pt; /* Размер основного шрифта в пунктах  */
+  background-color: #DCDCDC; /* Цвет фона веб-страницы */
+  color: #000000; /* Цвет основного текста */ 
+}
+h1 {
+	background-color: #DCDCDC;
+    color: #a52a2a; /* Цвет заголовка */
+    font-size: 24pt; /* Размер шрифта в пунктах */
+    font-family: Georgia, Times, serif; /* Семейство шрифтов */
+    font-weight: normal; /* Нормальное начертание текста  */
+}
+p {
+  font-size: 15pt;
+  margin-left: 10px; /* Отступ слева в пикселах */
+  margin-right: 10px; /* Отступ справа в пикселах */
+}
+p a { 
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+	color: #a52a2a;
+   }
+p a:hover { 
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+	color: #FF8C00;
+   } 
+li {
+    list-style-type: none; /* Убираем маркеры */
+   }
+table 
+{
+	max-width:80%;
+}	
+td img
+{
+	text-align: center;
+	max-width:100%; 
+	max-height:10%;
+}	
+.post
+{
+	text-align: center;
+	margin-left: 10px; /* Отступ слева в пикселах */
+    margin-right: 10px; /* Отступ справа в пикселах */
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background-color: #778899
+	height: 150px;
+	width: 450px;
+	border: 1px solid black;
+	
+}
+.post:hover
+{
+	background-color: #878899
+}
+.adder
+{
+	display: none;
+}
+.b
+{
+	
+}
+.b:active .adder
+{
+	display: block;
+}
