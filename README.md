@@ -1,2 +1,2 @@
 # lynxnest
-it is my first git hub account, thx
+it is my first git hub repository, thx
